@@ -1,4 +1,5 @@
 def second_challenge
+  values_list =[]
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
    vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -7,7 +8,7 @@ def second_challenge
   }
 
   #code your solution here!
-
+  groceries.values.flatten(1)
   
 
 end
