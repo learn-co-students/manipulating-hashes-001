@@ -8,6 +8,8 @@ def second_challenge
 
   #code your solution here!
 
-  
+  newarray = []
 
+newarray << groceries.values
+newarray.flatten
 end
